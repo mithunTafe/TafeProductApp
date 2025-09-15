@@ -15,11 +15,15 @@
 		<Label Content="Total Charge after adding &#xA;the wrap charge ($5)" HorizontalAlignment="Left" Height="60" Margin="26,250,0,0" VerticalAlignment="Top" Width="150"/>
 		<TextBlock Name="totalChargeWrapTextBlock" HorizontalAlignment="Left" Height="46" Margin="164,167,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="75"/>
 
+		<Label Content="Total Charge After GST @10%" HorizontalAlignment="Left" Height="30" Margin="26,300,0,0" VerticalAlignment="Top" Width="180"/>
+		<TextBlock Name="totalChargeGSTTextBlock" HorizontalAlignment="Left" Height="23" Margin="164,167,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="75"/>
+
 		<TextBox Name="productTextBox" HorizontalAlignment="Left" Height="24" Margin="122,37,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="96"/>
         <TextBox Name="priceTextBox" HorizontalAlignment="Left" Height="24" Margin="122,78,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="77"/>
         <TextBox x:Name="quantityTextBox" HorizontalAlignment="Left" Height="24" Margin="122,119,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="77"/>
 		<TextBox x:Name="totalChargeTextBox" HorizontalAlignment="Left" Height="24" Margin="199,222,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="77"/>
 		<TextBox x:Name="totalChargeWrapTextBox" HorizontalAlignment="Left" Height="24" Margin="199,265,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="77"/>
+		<TextBox x:Name="totalChargeGSTTextBox" HorizontalAlignment="Left" Height="24" Margin="199,305,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="77"/>
 		
 		<Button Name="calculateButton" Content="_Calculate" HorizontalAlignment="Left" Height="37" Margin="327,152,0,0" VerticalAlignment="Top" Width="122" Click="calculateButton_Click"/>
         <Button Name="clearButton" Content="C_lear" HorizontalAlignment="Left" Height="34" Margin="327,209,0,0" VerticalAlignment="Top" Width="122" Click="clearButton_Click"/>
